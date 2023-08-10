@@ -9,6 +9,15 @@ docker run -dp 127.0.0.1:3000:3000 myimage
 
 ```
 
+### Test using examples
+```
+curl -X POST "http://localhost/receipts/process"   -H  "Content-Type: application/json" -H "accept: application/json" -d @examples/morning-receipt.json
+```
+
+```
+curl http://localhost/receipts/{id}/points
+```
+
 `http:/localhost/receipts/process` for POST
 `http:/localhost/receipts/{id}/points` for GET
 
