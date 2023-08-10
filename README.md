@@ -2,6 +2,14 @@
 
 The API processor has been written in Python's FAST api. The app is dockerized.
 
+### Clone the repo
+```
+git clone https://github.com/ketan96-m/receipt_processor.git
+```
+```
+cd receipt_processor
+```
+
 ### Build the Docker image
 ```
 docker build -t myimage .
